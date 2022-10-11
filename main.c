@@ -7,8 +7,8 @@
 void matrixTest() {
     Matrix *A, *B, *C;
 
-//    A = matrix_create(3, 3, 1.0f, 2.0f, 3.0f, 4.0f, 5.0, 6.0, 7.0, 5.0, 9.0);
-    A = matrix_create(1,1,2.0);
+    A = matrix_create(3, 3, 1.0f, 2.0f, 3.0f, 4.0f, 5.0, 6.0, 7.0, 5.0, 9.0);
+//    A = matrix_create(1,1,2.0);
 //    A = matrix_create(3, 3, 3.0, 1.0, -1.0, 2.0,-2.0,0.0,1.0,2.0,-1.0);
 //    A = matrix_createIdentity(3);
     B = matrix_inverse(*A);
@@ -35,7 +35,8 @@ float random(float max) {
 
 
 int main() {
-//    matrixTest();
+//    for(int i=0;i<10;i++)
+//        matrixTest();
 //    exit(0);
 
     srand((unsigned int) time(NULL));
