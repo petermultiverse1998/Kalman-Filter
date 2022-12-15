@@ -32,13 +32,7 @@ float random(float max) {
     return (float) rand() / (float) (RAND_MAX) * max;
 }
 
-
-
-int main() {
-//    for(int i=0;i<10;i++)
-//        matrixTest();
-//    exit(0);
-
+void kalmanTest(){
     srand((unsigned int) time(NULL));
 
     Kalman *kalman;
@@ -67,6 +61,19 @@ int main() {
         matrix_destroy(Y);
     }
     kalman_destroy(kalman);
+
+}
+
+int add(int x,int y){return x+y;}
+
+int main() {
+//    matrixTest();
+//    kalmanTest();
+
+    int (*a)(int,int) = add;
+    printf("%d \n",a(1,3));
+
+
 
 
     printf("Memory Leaks = %d\n", matrix_MemoryLeaks());

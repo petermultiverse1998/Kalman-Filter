@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/peter/Desktop/Github/Kalman-Filter/cmake-build-debug",
-		"source" : "C:/Users/peter/Desktop/Github/Kalman-Filter"
+		"build" : "C:/Users/peter/OneDrive/Desktop/Github/Kalman-Filter/cmake-build-debug",
+		"source" : "C:/Users/peter/OneDrive/Desktop/Github/Kalman-Filter"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
